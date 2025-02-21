@@ -2,23 +2,30 @@ const teachers = ["Nathan", "Ed", "Fabio", "Phil", "Carlo", "Lewis", "Luca"]; //
 
 // 0. Per ogni insegnante stampa in console la frase:
 // [Nome insengante] è l'insegnante in posizione [i]
-for (let i = 0; i < teachers.length; i++){
+for (let i = 0; i < teachers.length; i++) {
     const listTeacher = teachers[i];
-    console.log(i+1, listTeacher);   
+    console.log(i + 1, listTeacher); 
 }
 // 1. Utilizzando un indice sull'array teachers, cambia il valore della
 // variabile fourthTeacher qui sotto in modo che sia il quarto insegnante elencato nell'array
-const fourthTeacher = null;
+const fourthTeacher = [4];
+console.log(fourthTeacher);
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
+teachers[4] = "Patrick"
+console.log(teachers);
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
-const lastTeacher = null;
+// const lastTeacher = ["Nathan", "Ed", "Fabio", "Phil", "Carlo", "Lewis", "Luca"];
+// let teacher = teachers.at(6)
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
-const firstTeacher = null;
+// const firstTeacher = ["Nathan", "Ed", "Fabio", "Phil", "Carlo", "Lewis", "Luca"];
+// let teacher = teachers.at(0)
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
+teachers.push("Vanessa");
+console.log(teachers);
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
 
