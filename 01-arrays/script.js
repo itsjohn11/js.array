@@ -33,8 +33,7 @@ console.log(teachers);
 
 // 7. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
-// const isFabioPresent = [];
-// let index = fruits.indexOf("Apple", -1);
+// const isFabioPresent = 
 
 
 // 8. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
@@ -47,8 +46,6 @@ console.log(5);
 const teachersString = teachers.join();
 console.log(teachersString);
 
-
-
 // 10. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = null;
+const isTeachersEmpty = teachers.length;
