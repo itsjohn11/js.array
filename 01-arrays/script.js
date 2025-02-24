@@ -33,7 +33,9 @@ console.log(teachers);
 
 // 7. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
-// const isFabioPresent = 
+const isFabioPresent = teachers;
+console.log(isFabioPresent.includes("Fabio"));
+
 
 
 // 8. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
@@ -48,4 +50,7 @@ console.log(teachersString);
 
 // 10. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = teachers.length;
+const isTeachersEmpty = teachers
+if (teachers.length === 0) {
+     console. log("Array is empty!")
+}
