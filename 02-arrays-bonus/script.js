@@ -19,7 +19,6 @@ console.log("reversed", reversedTeachers);
 longNames [5]= "Giovanni", "apple", "tech", "codes"
 let(i = 0; i =< longNames.length; i++){
   console.log(longNames[i]);
-  
 }
 
 
